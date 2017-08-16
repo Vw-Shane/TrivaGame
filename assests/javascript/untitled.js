@@ -21,10 +21,60 @@ var Questions =[
 
                "Pics" :[
                "<img src=assests/images/ferrariDaytona.jpg width='400px'>",
-               "<img src=assests/images/japandeer.jpg width='400px'>", 
+               , 
                     ],
 
               ];
+
+
+
+
+
+
+
+
+// Start timer
+   var count=60;
+
+//1000 will  run it every 1 second
+   var counter=setInterval(timer, 1000);
+
+  function timer() {
+   count=count-1;
+   if (count <= 0)
+   {
+     clearInterval(counter);
+//counter ended, do something here??????
+     return;
+   }
+
+
+
+
+
+
+
+
+
+
+if (onck) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
